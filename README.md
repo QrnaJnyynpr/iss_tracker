@@ -30,7 +30,9 @@ This lead to me learning Flask so I could present the data with a bit of style i
 - [ ] Update data in DOM automatically rather than having to refresh (within API request limits).
 - [ ] Include map showing current location.
 - [ ] Add favicon.
-- [ ] Improve design for current web accessibility guidelines
+- [ ] Improve design for current web accessibility guidelines.
+- [ ] Include smaller images to load on smaller screens to save bandwidth on mobile.
+- [ ] Test on legacy browser profiles.
 
 ## Credits:
 - ISS data by http://open-notify.org and https://wheretheiss.at
