@@ -2,6 +2,8 @@
 ###### Live location tracker for the International Space Station.
 **Note: Project requires private API keys to work, which are not included in the source code for obvious security reasons. To see the site in action, [click here](#).**
 
+![Image of site in action](screenprint.png)
+
 This project started as a simple Python script, written to learn how to use APIs by making HTTP requests, and dealing with JSON data to extract what I needed. The original file took data from two APIs, sent data to a third, and printed the resulting information to the console window.
 
 I had a lot of fun with this project, so I thought it would be ideal for my first attempt to move away from the console window, and learn how to showcase Python with a proper UI.
@@ -28,7 +30,9 @@ This lead to me learning Flask so I could present the data with a bit of style i
 - [ ] Update data in DOM automatically rather than having to refresh (within API request limits).
 - [ ] Include map showing current location.
 - [ ] Add favicon.
-- [ ] Improve design for current web accessibility guidelines
+- [ ] Improve design for current web accessibility guidelines.
+- [ ] Include smaller images to load on smaller screens to save bandwidth on mobile.
+- [ ] Test on legacy browser profiles.
 
 ## Credits:
 - ISS data by http://open-notify.org and https://wheretheiss.at
