@@ -53,14 +53,13 @@
 		<div class="card-group">
 			<div class="card text-center my-4">
 				<div class="card-header display-4">
-					Current Status
+					Current Location
 				</div>
-				<div class="card-body">
-					<h5 class="card-title">Visibility: {{visibility}}</h5>
-						<p class="card-text">Altitude: {{altitude_km}} km | {{altitude_mi}} mi</p>
-						<p class="card-text">Velocity: {{velocity_kph}} kph | {{velocity_mph}} mph</p>
-						<p class="card-text">what3words: <b>{{w3w}}</b></p>
-						<a href="https://what3words.com/{{latitude}},{{longitude}}" target="_blank" class="btn btn-primary">View on what3words</a>
+				<div class="card-body" id="data1">
+					<a href="https://www.google.com/search?q={{location}}" target="_blank"><h5 class="card-title">{{location}}</h5></a>
+					<p class="card-text">Latitude: {{latitude}}</p>
+					<p class="card-text">Longitude: {{longitude}}</p>
+					<a href="https://www.google.com/maps/place/{{latitude}},{{longitude}}" target="_blank" class="btn btn-primary">View on Google Maps</a>
 				</div>
 				<div class="card-footer">
 					{{time}}
@@ -69,13 +68,14 @@
 
 			<div class="card text-center my-4">
 				<div class="card-header display-4">
-					Current Location
+					Current Status
 				</div>
-				<div class="card-body" id="data1">
-					<a href="https://www.google.com/search?q={{location}}" target="_blank"><h5 class="card-title">{{location}}</h5></a>
-					<p class="card-text">Latitude: {{latitude}}</p>
-					<p class="card-text">Longitude: {{longitude}}</p>
-					<a href="https://www.google.com/maps/place/{{latitude}},{{longitude}}" target="_blank" class="btn btn-primary">View on Google Maps</a>
+				<div class="card-body">
+					<h5 class="card-title">Visibility: {{visibility}}</h5>
+						<p class="card-text">Altitude: {{altitude_km}} km | {{altitude_mi}} mi</p>
+						<p class="card-text">Velocity: {{velocity_kph}} kph | {{velocity_mph}} mph</p>
+						<p class="card-text">what3words: <b>{{w3w}}</b></p>
+						<a href="https://what3words.com/{{latitude}},{{longitude}}" target="_blank" class="btn btn-primary">View on what3words</a>
 				</div>
 				<div class="card-footer">
 					{{time}}
