@@ -2,6 +2,8 @@
 ###### Live location tracker for the International Space Station.
 **Note: Project requires private API keys to work, which are not included in the source code for obvious security reasons. To see the site in action, [click here](#).**
 
+![Image of site in action](https://github.com/QrnaJnyynpr/iss_tracker/blob/master/screenprint.png)
+
 This project started as a simple Python script, written to learn how to use APIs by making HTTP requests, and dealing with JSON data to extract what I needed. The original file took data from two APIs, sent data to a third, and printed the resulting information to the console window.
 
 I had a lot of fun with this project, so I thought it would be ideal for my first attempt to move away from the console window, and learn how to showcase Python with a proper UI.
