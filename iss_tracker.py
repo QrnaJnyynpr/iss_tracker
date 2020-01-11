@@ -1,6 +1,7 @@
 import requests
 import datetime
 from flask import Flask, render_template, url_for
+from keys import private_key # File included in .gitignore for security
 
 app = Flask(__name__)
 
@@ -77,7 +78,7 @@ def root():
 	location_url = "https://api.opencagedata.com/geocode/v1/json"
 
 	# API to convert coordinates to real location data
-	location_data = requests.get(f"https://api.opencagedata.com/geocode/v1/json?q={latitude}%2C%20{longitude}&key={API_KEY_HERE}&language=en&pretty=1").json()
+	location_data = requests.get(f"https://api.opencagedata.com/geocode/v1/json?q={latitude}%2C%20{longitude}&key={private_key}&language=en&pretty=1").json()
 
 	# Country information not available when ISS is over ocean
 	if "country" in location_data["results"][0]["components"]:
