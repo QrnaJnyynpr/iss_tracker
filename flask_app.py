@@ -74,8 +74,8 @@ def root():
 	latitude = iss_data["iss_position"]["latitude"]
 	longitude = iss_data["iss_position"]["longitude"]
 
-	# Convert lat/long to approximate address
-	location_url = "https://api.opencagedata.com/geocode/v1/json"
+	# # Convert lat/long to approximate address
+	# location_url = "https://api.opencagedata.com/geocode/v1/json"
 
 	# API to convert coordinates to real location data
 	location_data = requests.get(f"https://api.opencagedata.com/geocode/v1/json?q={latitude}%2C%20{longitude}&key={private_key}&language=en&pretty=1").json()
@@ -113,3 +113,6 @@ def root():
 	latitude=latitude,
 	longitude=longitude
 )
+
+if __name__ == '__main__':
+    app.run()

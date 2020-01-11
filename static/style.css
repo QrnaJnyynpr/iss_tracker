@@ -52,3 +52,10 @@ a {
 a:hover {
 	color: #1d303d; text-decoration: none;
 }
+
+.btn-primary:focus,.btn-primary:active {
+	background-color: #212121;
+	border: 2px solid #e4e4e4;
+	outline: none !important;
+	box-shadow: none;
+}

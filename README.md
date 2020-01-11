@@ -1,6 +1,6 @@
 # ISS Tracker
 ###### Live location tracker for the International Space Station.
-**Note: Project requires private API keys to work, which are not included in the source code for obvious security reasons. To see the site in action, [click here](#).**
+**Note: Project requires private API keys to work, which are not included in the source code for obvious security reasons. To see the site in action, [click here](https://dcxpython.pythonanywhere.com/).**
 
 ![Image of site in action](screenprint.png)
 
@@ -25,11 +25,12 @@ This lead to me learning Flask so I could present the data with a bit of style i
 - [ ] Issue with geocoding API which causes an index error when ISS is located over the South China Sea. This may apply to other areas but so far no others have been found. Possible formatting issue with JSON data.
 
 ## ToDo List:
+- [x] Upload to host site
 - [x] Write custom CSS to override Bootstrap defaults.
 - [x] Links to credit API hosts.
 - [ ] Update data in DOM automatically rather than having to refresh (within API request limits).
 - [ ] Include map showing current location.
-- [ ] Add favicon.
+- [x] Add favicon.
 - [ ] Improve design for current web accessibility guidelines.
 - [ ] Include smaller images to load on smaller screens to save bandwidth on mobile.
 - [ ] Test on legacy browser profiles.
