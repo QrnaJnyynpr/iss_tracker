@@ -22,18 +22,7 @@ This lead to me learning Flask so I could present the data with a bit of style i
 - Links to further reading, including Wikipedia main ISS article and official NASA website.
 
 ## Known Bugs:
-- [ ] Issue with geocoding API which causes an index error when ISS is located over the South China Sea. This may apply to other areas but so far no others have been found. Possible formatting issue with JSON data.
-
-## ToDo List:
-- [x] Upload to host site
-- [x] Write custom CSS to override Bootstrap defaults.
-- [x] Links to credit API hosts.
-- [ ] Update data in DOM automatically rather than having to refresh (within API request limits).
-- [ ] Include map showing current location.
-- [x] Add favicon.
-- [ ] Improve design for current web accessibility guidelines.
-- [ ] Include smaller images to load on smaller screens to save bandwidth on mobile.
-- [ ] Test on legacy browser profiles.
+- [ ] Issue with geocoding API which causes an index error when ISS is located over the South China Sea. This may apply to other areas but so far no others have been found.
 
 ## Credits:
 - ISS data by http://open-notify.org and https://wheretheiss.at
