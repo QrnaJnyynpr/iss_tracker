@@ -1,0 +1,5 @@
+__pycache__/
+iss_images_large/
+iss_tracker/
+start.sh
+keys.py
