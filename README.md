@@ -4,11 +4,9 @@
 
 ![Image of site in action](screenprint.png)
 
-This project started as a simple Python script, written to learn how to use APIs by making HTTP requests, and dealing with JSON data to extract what I needed. The original file took data from two APIs, sent data to a third, and printed the resulting information to the console window.
+This project started as a simple Python script, written to learn how to use pre-existing APIs by making HTTP requests, and dealing with JSON data to extract what I needed. The original file took data from two APIs, sent data to a third, and configured the resulting information to be printed on the console window.
 
-I had a lot of fun with this project, so I thought it would be ideal for my first attempt to move away from the console window, and learn how to showcase Python with a proper UI.
-
-This lead to me learning Flask so I could present the data with a bit of style in a web browser.
+I had a lot of fun with this project, so I thought it would be ideal for my first attempt to move away from the console window, and learn how to use Python with a proper UI. This lead to me learning Flask so I could present the data with a bit of style in a web browser.
 
 ## Features:
 - Display current latitude and longitude.
@@ -22,7 +20,14 @@ This lead to me learning Flask so I could present the data with a bit of style i
 - Links to further reading, including Wikipedia main ISS article and official NASA website.
 
 ## Known Bugs:
-- [ ] Issue with geocoding API which causes an index error when ISS is located over the South China Sea. This may apply to other areas but so far no others have been found.
+- Issue with geocoding API which causes an index error when ISS is located over the South China Sea. This may apply to other areas but so far no others have been found in testing.
+
+## Possible Improvements:
+- Update the DOM in realtime (with consideration to API request frequency limits).
+- Present location on map rather than linking to Google Maps in a new window.
+- Responsive image sizes to reduce loading times on smaller screens.
+- Further reading links and more information on the current ISS mission.
+- Improved CSS.
 
 ## Credits:
 - ISS data by http://open-notify.org and https://wheretheiss.at
